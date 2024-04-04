@@ -1,0 +1,37 @@
+{
+  "name": "sosmed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc",
+    "push": "npx prisma db push",
+    "migrate": "npx prisma migrate dev --name init"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "latest",
+    "nodemon": "latest",
+    "prisma": "^5.12.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "^9.0.2",
+    "ts-node": "latest",
+    "typescript": "latest",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies.@types/dotenv": "latest"
+}
